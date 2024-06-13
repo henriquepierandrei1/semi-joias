@@ -18,15 +18,13 @@
 }
 
 body{
-    background-image: url('/imgs/692ea7b0-0d8a-4ccb-8949-c0167d526f31.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(34, 31, 31);
     padding: 20px;
 }
 
 .card {
-    width: 330px;
-    height: auto;
+    width: 400px;
+    height: max-content;
     padding: .8em;
     background: #ffffff;
     position: relative;
@@ -89,10 +87,13 @@ body{
     padding-bottom: 10px;
    }
 
-   @media screen and (max-width: 992px){
+   @media screen and (max-width: 991px){
         article{
             flex-direction: column;
             justify-content: space-around;
+        }
+        .card{
+            width: 95%;
         }
     
    }
